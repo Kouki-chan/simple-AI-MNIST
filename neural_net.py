@@ -33,7 +33,7 @@ class Net(nn.Module):
         super().__init__()
         #fc means fully connected layer
         #the 1 means the first layer
-        #781 comes from the image's length * width (which is 28,28 in this case) 
+        #784 comes from the image's length * width (which is 28,28 in this case) 
         #64 is the number of neruons per layer 
         # (input, output)
         self.fc1 = nn.Linear(784,64)
